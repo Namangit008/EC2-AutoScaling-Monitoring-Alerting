@@ -1,0 +1,13 @@
+{
+  "LaunchTemplateName": "devops-scaling-template",
+  "VersionDescription": "v1",
+  "LaunchTemplateData": {
+    "ImageId": "ami-021a584b49225376d",
+    "InstanceType": "t2.micro",
+    "KeyName": "newone",
+    "SecurityGroupIds": ["sg-0ce311dbeac30a2ac"],
+    "Monitoring": {
+      "Enabled": true
+    }
+  }
+}
